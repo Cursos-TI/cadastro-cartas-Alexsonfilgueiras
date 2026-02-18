@@ -28,6 +28,12 @@ int main() {
       printf("Ditide o Codigo  Carta 2: \n");
       scanf("%s", CodigoCarta2);
 
+      printf("Ditide o Nome  Da Cidade Carta 1: \n");
+      scanf("%s", NomeCidadecarta1);
+
+      printf("Ditide o Nome  Da Cidade Carta 2: \n");
+      scanf("%s", NomeCidadecarta2);
+
       printf("Ditide a População Carta 1: \n");
       scanf("%d", &PopulacaoCarta1);
 
@@ -46,6 +52,14 @@ int main() {
       printf("Ditide o PIB Carta 2: \n");
       scanf("%f", &pibCarta2);
 
+      printf("Ditide Numero Ponto Turistico Carta 1: \n");
+      scanf("%d", &NumPontoTuristicoCarta1);
+
+      printf("Ditide Numero Ponto Turistico Carta 2: \n");
+      scanf("%d", &NumPontoTuristicoCarta2);
+
+
+
 
 
   // Área para exibição dos dados da cidade
@@ -60,6 +74,11 @@ int main() {
       
       printf("Código da Carta 2: %1s \n" , CodigoCarta2);
 
+      printf("Nome  Da Cidade Carta 1: %s \n" , NomeCidadecarta1);
+
+      printf("Nome  Da Cidade Carta 1: %s \n" , NomeCidadecarta1);
+
+
       printf("Poplação Carta 1: %d \n" , PopulacaoCarta1);
       
       printf("Poplação Carta 2: %d \n" , PopulacaoCarta2);
@@ -72,7 +91,12 @@ int main() {
 
       printf("PIB Carta 1: %.2f \n" , pibCarta2);
 
-      printf(" FIM ");
+      printf("Numero Ponto Turistico Carta 1: %d \n" , NumPontoTuristicoCarta1);
+
+      printf("Numero Ponto Turistico Carta 2: %d \n" , NumPontoTuristicoCarta2);
+
+
+      printf(" FIM \n");
       
       
       
